@@ -1,0 +1,19 @@
+# Core libraries
+numpy==1.23.5
+pandas==1.5.3
+
+# Natural Language Processing (NLP)
+nltk==3.8.1
+spacy==3.5.3
+transformers==4.28.1
+
+# Machine Learning
+scikit-learn==1.2.2
+torch==2.0.1  # or tensorflow==2.12.0 if you're using TensorFlow
+
+# Chatbot-specific
+rasa==3.5.11  # if you're using Rasa for the chatbot
+flask==2.3.2  # if you're deploying a web interface
+
+# Utilities
+python-dotenv==1.0.0  # for environment variables
